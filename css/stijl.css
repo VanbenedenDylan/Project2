@@ -1,0 +1,175 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Arial;
+  font-size: calc(1rem + 0.3vw);
+  background-color: #383838;
+  color: rgb(180, 180, 180);
+}
+
+#navbar
+{
+    text-align: center;
+    height: 11vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(24, 24, 24);
+    border-bottom: 0.25vw solid rgb(180, 180, 180);
+    z-index: 10;
+    flex-direction: row;
+
+}
+
+#navtitle
+{
+    height: 6vh;
+    width: 100vw;
+}
+
+#nav
+{
+    margin-bottom: 0.5vw;
+}
+#navbuttons
+{
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+}
+
+.navbuttontop
+{
+    margin-top: 0.25vw;
+    margin-right: 1vw;
+    min-width: 10vw;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    display: block;
+    background-color: #557b9c;
+    border-radius: 1vw;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(180, 180, 180);
+    
+}
+
+.nav-button
+{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    display: block;
+    background-color: #557b9c;
+    border-radius: 0.5vw;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(180, 180, 180);
+    margin: 1vw;
+    margin-left: 0vw;
+}
+
+#inclusief-alles
+{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+
+}
+
+
+#linkerbox
+{
+    width: 15vw;
+    max-width: 15vw;
+    flex-shrink: 0;
+    background-color: rgb(24, 24, 24);
+    border-right: 0.25vw solid rgb(180, 180, 180);
+    margin-top: 5vw;
+}
+
+#content
+{
+    justify-content: center;
+    max-width: inherit;
+}
+
+
+.textsectie
+{
+    width: 80vw;
+    min-height: 50vw;
+    margin: 1vw;
+    margin-top: 6vw;
+    flex: 1;
+}
+
+#carouselstijl
+{
+    width: 60vw; 
+    height: 45vh;
+}
+#footer
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0vw;
+    border-top: 0.25vw solid rgb(180, 180, 180);
+    height: 8vw;
+    width: 84vw;
+    align-items: center;
+    
+}
+
+#terugomhoogknop
+{ 
+    margin: 1vw;
+}
+#omhoogknop
+{
+    margin-top: 10vw;
+    color: rgb(180, 180, 180);
+    text-decoration: underline;
+    text-align: center;
+}
+
+#mijninfo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sociallink
+{
+    width: 2vw;
+    border-radius: 12vw;
+}
+
+.info
+{
+    justify-content: center;
+    margin: 1vw;
+}
+.title1
+{
+    font-family: 'Times New Roman', Arial;
+    color: #557b9c;
+    scroll-margin-top:11vh;
+    font-weight: bold;
+}
+
+.img
+{
+    border-radius: 4vw;
+    border-style: solid;
+    border-width: 0.25vw;
+    border-color: rgb(180, 180, 180);
+    z-index: 9;
+}
+
