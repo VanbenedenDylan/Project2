@@ -30,11 +30,21 @@ body
 {
     height: 6vh;
     width: 100vw;
+    display: flex;
+    
+    justify-content: center;
 }
 
+#logo
+{
+    margin: 1vw;
+    margin-bottom: 0.5vh;
+    margin-right: 40vw;
+
+}
 #nav
 {
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.5vh;
 }
 #navbuttons
 {
@@ -45,7 +55,7 @@ body
 
 .navbuttontop
 {
-    margin-top: 0.25vw;
+    margin-top: 0.25vh;
     margin-right: 1vw;
     min-width: 10vw;
     color: rgb(180, 180, 180);
@@ -96,6 +106,8 @@ body
 
 #content
 {
+    position: sticky;
+    top: 11vh;
     justify-content: center;
     max-width: inherit;
 }
@@ -104,24 +116,33 @@ body
 .textsectie
 {
     width: 80vw;
+    max-width: 80vw;
     min-height: 50vw;
     margin: 1vw;
-    margin-top: 6vw;
+    margin-top: 11vh;
     flex: 1;
 }
 
-#carouselstijl
+#carouselbox
 {
-    width: 60vw; 
-    height: 45vh;
+    width: 50vw;
+    height: 50vh;
 }
+
+#carouselfotos
+{
+    object-fit: contain;
+    width: 50vw;
+    height: 50vh;
+}
+
 #footer
 {
     display: flex;
     flex-direction: column;
     margin: 0vw;
     border-top: 0.25vw solid rgb(180, 180, 180);
-    height: 8vw;
+    height: 18vh;
     width: 84vw;
     align-items: center;
     
@@ -133,7 +154,7 @@ body
 }
 #omhoogknop
 {
-    margin-top: 10vw;
+    margin-top: 10vh;
     color: rgb(180, 180, 180);
     text-decoration: underline;
     text-align: center;
@@ -173,3 +194,27 @@ body
     z-index: 9;
 }
 
+@media screen and (max-width: 768px)
+{
+.img
+{
+    width: 65%;
+    height: 65%;
+}
+
+#linkerbox
+{
+    width: 30vw;
+    max-width: 30vw;
+}
+
+.textsectie
+{
+    width: 65vw;
+}
+
+#footer
+{
+    width: 65vw;
+}
+}
